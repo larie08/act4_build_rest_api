@@ -9,7 +9,7 @@ function loadUsers () : Users {
     try{
         const data = fs.readFileSync("./users.json", "utf-8")
         return JSON.parse(data)
-    } catch (error){
+    } catch (error) {
         console.log(`Error ${error}`)
         return{}
     }
@@ -81,7 +81,7 @@ export const comparePassword = async (email : string, supplied_password : string
     }
 
     return user
-}
+};
 
 export const update = async (id : string, updateValues : User) : Promise<UnitUser | null> => {
     
@@ -106,7 +106,7 @@ export const update = async (id : string, updateValues : User) : Promise<UnitUse
     saveUsers()
 
     return users[id]
-}
+};
 
 export const remove = async (id : string) : Promise<null | void> => {
     
@@ -119,4 +119,4 @@ export const remove = async (id : string) : Promise<null | void> => {
     delete users[id]
 
     saveUsers()
-}
+};
