@@ -1,0 +1,27 @@
+{
+    "9a99aa4e-516f-471a-bc5d-e1f6b30d2aee":
+    {
+        "id":"9a99aa4e-516f-471a-bc5d-e1f6b30d2aee",
+        "name":"Corndog","price":25,"quantity":300,"image":"image_url.png"
+    },
+    "f188afb7-75a5-45d1-8bda-1e4a2a3d4038":
+    {
+        "id":"f188afb7-75a5-45d1-8bda-1e4a2a3d4038",
+        "name":"Pepsi Cola","price":10,"quantity":100,"image":"image_url.png"
+    },
+    "3bbd1fad-c6e1-4ee9-9f47-45e5283173ed":
+    {
+        "id":"3bbd1fad-c6e1-4ee9-9f47-45e5283173ed",
+        "name":"Pepsi Cola",
+        "price":10,
+        "quantity":100,
+        "image":"image_url.png"
+    },
+    "278f7a8b-e1ea-47fe-86ca-c9513e8fc65e":
+    {
+        "id":"278f7a8b-e1ea-47fe-86ca-c9513e8fc65e",
+        "name":"Shawarma",
+        "price":5,
+        "quantity":100,
+        "image":"image_url.png"
+}}
